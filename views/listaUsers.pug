@@ -1,0 +1,10 @@
+html
+    header
+        title Todos os utilizadores
+    body
+        if users
+           each user in users
+            p=user.name
+            p=user.age
+        else 
+            p No users found

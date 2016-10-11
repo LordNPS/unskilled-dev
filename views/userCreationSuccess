@@ -1,0 +1,5 @@
+html
+    header
+        title="Sucesso"
+    body
+        p1="Utilizador " + name + "de idade" + age + " criado com sucesso!"
